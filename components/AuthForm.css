@@ -1,0 +1,131 @@
+
+.auth-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  min-height: 100vh; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.auth-page-container .auth-form { 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 380px; 
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(230, 239, 245, 0.9);
+}
+
+.auth-page-container .logo-image { 
+  margin-top: -30px;
+  margin-bottom: 10px; 
+  width: 190px;
+  height: auto;
+  align-self: center;
+}
+
+.auth-page-container .auth-form-title { 
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #2d014a; 
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+
+.auth-form .input-group { 
+  margin-bottom: 18px;
+}
+
+.auth-form .input-group label { 
+  margin-bottom: 6px;
+  font-weight: bold;
+  display: block;
+  color: #2d014a;
+}
+
+.auth-form .input-group input { 
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #060606;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #f9f6f6;
+  color: #2d014a; 
+}
+
+.auth-form .submit-button { 
+  padding: 12px 18px;
+  background-color: #ee8618;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.auth-form .submit-button:hover { 
+  background-color: #c96d0f;
+}
+
+.auth-form .submit-button:disabled { 
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+.auth-page-container .error-message, 
+.auth-form .error-message { 
+  color: #d32f2f;
+  background-color: #ffcdd2;
+  border: 1px solid #d32f2f;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.auth-page-container .success-message, 
+.auth-form .success-message { 
+  color: #388e3c;
+  background-color: #c8e6c9;
+  border: 1px solid #388e3c;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.auth-page-container .auth-switch-text { 
+  text-align: center;
+  margin-top: 20px;
+  color: #f0f0f0; 
+}
+
+.auth-page-container .auth-switch-text button { 
+  background: none;
+  border: none;
+  color: #ffa726;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+}
+
+.auth-page-container .auth-switch-text button:hover { 
+  color: #ffb74d;
+}
