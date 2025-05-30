@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)
 
 DB_HOST = os.getenv('DB_HOST', '127.0.0.1')
-DB_USER = os.getenv('DB_USER', '3DPrintApp')
-DB_PASSWORD = os.getenv('DB_PASSWORD', '!1Qwertyuiop') 
+DB_USER = os.getenv('DB_USER', 'USER')
+DB_PASSWORD = os.getenv('DB_PASSWORD', 'PASSWORD') 
 DB_NAME = os.getenv('DB_NAME', '3DPrinting4Everyone')
 
 def get_db_connection():
